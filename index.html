@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Desafio 03</title>
+</head>
+<body>
+    <header>
+        <h1>Desafio 03</h1>
+        <br>
+        <h2>Agenda Virtual Semanal</h2>
+    </header>
+    <main>
+        <div class="divPrincipal">
+            <h2>Por favor elija un dia</h2>
+            <div class="diasDiv">
+                <div class="dias" id="divLunes" onclick="divBotonDia('lunes')">Lunes</div>
+                <div class="dias" id="divMartes" onclick="divBotonDia('martes')">Martes</div>
+                <div class="dias" id="divMiercoles" onclick="divBotonDia('miercoles')">Miercoles</div>
+                <div class="dias" id="divJueves" onclick="divBotonDia('jueves')">Jueves</div>
+                <div class="dias" id="divViernes" onclick="divBotonDia('viernes')">Viernes</div>
+            </div>
+        </div>
+    </main>
+    <!--SCRIPT REFERENCES-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/index.js" ></script>
+</body>
+</html>
